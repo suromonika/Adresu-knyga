@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adresų knyga</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <main id="app">
+      <form id="address-book-inputs">
+        <div>
+          <label for="name">First name</label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div>
+          <label for="surname">Last name</label>
+          <input type="text" name="surname" id="surname" />
+        </div>
+        <div>
+          <label for="address">Address</label>
+          <input type="address" name="address" id="address" />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div>
+          <label for="phone">Phone number</label>
+          <input type="tel" name="phone" id="phone" />
+        </div>
+
+        <button id="submit" type="submit">Save</button>
+      </form>
+      <div id="address-list"></div>
+    </main>
+  </body>
+</html>
